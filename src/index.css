@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form.form_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 15px;
+  align-items: flex-start;
+}
+
+.form_fields {
+  padding: 20px;
+}
+.form_fields input {
+  padding: 10px 15px;
+}
+.form_fields button,
+.add_user_btn {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box-layout .edit_btn {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add_user_btn {
+  margin-top: 10px;
+}
+
+.box-layout {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+}
+
+.box-layout .card {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.box-layout .card button {
+  padding: 10px 20px;
+  background-color: rgb(255, 73, 7);
+  color: white;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.box-layout figure img {
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px 0px;
+}
